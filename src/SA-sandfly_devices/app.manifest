@@ -1,10 +1,10 @@
 {
   "schemaVersion": "1.0.0",
   "info": {
-    "title": "SA-Sandfly_Devices",
+    "title": "SA-SandflyDevices",
     "id": {
       "group": null,
-      "name": "SA-sandfly_devices",
+      "name": "SA-SandflyDevices",
       "version": "1.0.0"
     },
     "author": [

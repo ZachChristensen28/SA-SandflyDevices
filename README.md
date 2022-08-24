@@ -1,7 +1,7 @@
-# Sandfly Security™ devices supporting add-on for Splunk Enterprise Security
+# SA-SandflyDevices
 
-[![GitHub](https://img.shields.io/github/license/ZachChristensen28/SA-sandfly_devices)]()
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ZachChristensen28/SA-sandfly_devices)
+[![GitHub](https://img.shields.io/github/license/ZachChristensen28/SA-SandflyDevices)]()
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/ZachChristensen28/SA-SandflyDevices)
 
 The Sandfly Security™ devices supporting add-on for Splunk Enterprise Security allows the device data produced by Sandfly Security to be used with Splunk Enterprise Security's Asset Database.
 
@@ -25,4 +25,4 @@ Initial release
 
 ## Bugs
 
-Please open an issue at [github.com](https://github.com/ZachChristensen28/SA-sandfly_devices/issues)
+Please open an issue at [github.com](https://github.com/ZachChristensen28/SA-SandflyDevices/issues)
