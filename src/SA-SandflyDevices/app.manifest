@@ -15,11 +15,15 @@
       }
     ],
     "releaseDate": null,
-    "description": "",
+    "description": "This supporting add-on comes with prebuilt content for Sandfly Security device data to be easily used with Splunk Enterprise Security's asset database.",
     "classification": {
       "intendedAudience": null,
-      "categories": [],
-      "developmentStatus": null
+      "categories": [
+        "Endpoint",
+        "Security, Fraud, & Compliance",
+        "Information"
+      ],
+      "developmentStatus": "Production/Stable"
     },
     "commonInformationModels": null,
     "license": {
@@ -33,14 +37,23 @@
       "uri": null
     },
     "releaseNotes": {
-      "name": null,
-      "text": null,
-      "uri": null
+      "name": "README",
+      "uri": "https://splunk-sa-sandfly.ztsplunker.com"
     }
   },
   "dependencies": {
+    "TA-sandfly-security": {
+      "version": ">=4.0.4",
+      "optional": true
+    },
+    "SplunkEnterpriseSecuritySuite": {
+      "version": ">=6.0.0",
+      "optional": false
+    }
   },
-  "tasks": [],
+  "tasks": [
+    "identity_manager://sa_sandfly_devices"
+  ],
   "inputGroups": {
   },
   "incompatibleApps": {
@@ -49,5 +62,11 @@
     "splunk": {
       "Enterprise": "*"
     }
-  }
+  },
+  "supportedDeployments": [
+    "*"
+  ],
+  "targetWorkloads": [
+    "_search_heads"
+  ]
 }
